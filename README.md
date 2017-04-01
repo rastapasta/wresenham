@@ -1,10 +1,10 @@
-# wresenham - B*resenham* line algorithm *W*idth
+# wresenham - B*resenham* line algorithm with *W*idth
 
-A node.js library to determain all points on a line with given width between two points.
+A node.js library to calculate all points on a line, given two points and width.
 
 ## How does it work?
 
-* Inspired by [Inspired by Alois Zingl's "The Beauty of Bresenham's Algorithm"](http://members.chello.at/~easyfilter/bresenham.html)
+* Inspired by [Alois Zingl's "The Beauty of Bresenham's Algorithm"](http://members.chello.at/~easyfilter/bresenham.html)
 * Falls back to [bresenham](https://github.com/madbence/node-bresenham) for width < 1
 * All points points in the given line are passed to the callback.
 

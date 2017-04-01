@@ -1,7 +1,7 @@
 {
   "name": "wresenham",
   "version": "0.1.0",
-  "description": "Bresenham line with width - process all points defining the line!",
+  "description": "Calculate all points on a line, given two points and width",
   "main": "index.js",
   "repository": {
     "type": "git",
