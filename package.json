@@ -1,0 +1,21 @@
+{
+  "name": "wresenham",
+  "version": "0.1.0",
+  "description": "Bresenham line with width - process all points defining the line!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rastapasta/wresenham.git"
+  },
+  "keywords": [
+    "bresenham",
+    "line",
+    "width",
+    "points"
+  ],
+  "author": "Michael Straßburger <codepoet@cpan.org>",
+  "license": "MIT",
+  "dependencies": {
+    "bresenham": "0.0.4"
+  }
+}
