@@ -10,14 +10,17 @@ module.exports = (from, to, width, callback) => {
     return bresehmham(from[0], from[1], to[0], to[1], callback);
   }
 
-  let dx = Math.abs(x1-x0),
+  let x0 = from[0],
+      y0 = from[1],
+      x1 = to[0],
+      y1 = to[1],
+      dx = Math.abs(x1-x0),
       sx = x0 < x1 ? 1 : -1,
       dy = Math.abs(y1-y0),
       sy = y0 < y1 ? 1 : -1,
       err = dx-dy,
-      ed = dx+dy === 0 ? 1 : Math.sqrt(dx*dx+dy*dy);
-
-  width = (width+1)/2;
+      ed = dx+dy === 0 ? 1 : Math.sqrt(dx*dx+dy*dy),
+      width = (width+1)/2;
 
   while(true) {
     callback(x0, y0);

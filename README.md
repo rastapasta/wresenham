@@ -1,6 +1,6 @@
 # wresenham - B*resenham* line algorithm with *W*idth
 
-A node.js library to calculate all points on a line, given two points and width.
+A JavaScript library to calculate all points on a line, given two points and a stroke width.
 
 ## How does it work?
 
