@@ -4,7 +4,7 @@ A JavaScript library to calculate all points on a line, given two points and a s
 
 ## How does it work?
 
-* Inspired by [Alois Zingl's "The Beauty of Bresenham's Algorithm"](http://members.chello.at/~easyfilter/bresenham.html)
+* Implements a monochrome version of the [Xiaolin Wu's line algorithm](https://en.wikipedia.org/wiki/Xiaolin_Wu%27s_line_algorithm)
 * Falls back to [bresenham](https://github.com/madbence/node-bresenham) for width < 1
 * All points points in the given line are passed to the callback.
 
