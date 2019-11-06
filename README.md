@@ -1,5 +1,7 @@
 # wresenham - B*resenham* line algorithm with *W*idth
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rastapasta/wresenham.svg)](https://greenkeeper.io/)
+
 A JavaScript library to calculate all points on a line, given two points and a stroke width.
 
 ## How does it work?
